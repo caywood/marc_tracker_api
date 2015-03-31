@@ -1,4 +1,5 @@
 <?php
+require 'scraperwiki.php';
 
 require 'scraperwiki/simple_html_dom.php';           
 $html_content = scraperwiki::scrape("http://www.marctracker.com/PublicView/location.jsp");
